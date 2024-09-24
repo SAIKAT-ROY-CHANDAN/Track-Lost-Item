@@ -1,6 +1,5 @@
 import { title } from '@/src/components/primitives'
 
-
 const FoundItemsPage = () => {
   return (
     <div>

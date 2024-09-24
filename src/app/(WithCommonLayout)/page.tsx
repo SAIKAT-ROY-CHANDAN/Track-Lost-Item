@@ -1,9 +1,11 @@
-import { title } from "@/src/components/primitives";
+import { Landing } from "@/src/components/modules/home/Landing";
+import { RecentPosts } from "@/src/components/modules/home/RecentPosts";
 
 export default function Home() {
   return (
-    <section className="h-screen bg-[url('/glass.jpg')]">
-      <h1 className={title()}>Found X</h1>
-    </section>
+    <div>
+      <Landing />
+      <RecentPosts />
+    </div>
   );
 }
